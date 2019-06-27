@@ -1,0 +1,311 @@
+/* margin and padding for whole body*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    overflow-x:hidden;
+    background-color:lightyellow;
+}
+
+/* background image*/
+.images{
+	background-image: url("../img/crafts.jpg");
+	background-size: 80% 80%;
+	width: 100%;
+    height: 100vh;
+}
+/* adding header*/
+.header{
+    background-color:grey;
+    width:100%;
+    height:100px;
+    position: fixed;
+    display:inline;
+}
+/*specifications for menu*/
+.main{
+    width:100%;
+    margin:30px 0;
+}
+
+.leftmenu{
+    float:left;
+    width: 20%;
+	line-height: 100px;
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.rightmenu{
+    float:right;
+    width:70%;
+	height: 100px;
+}
+    
+.rightmenu ul{
+	margin-right: 20px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+    
+#firstlist{
+    color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+/* text fonts*/
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+}
+
+.text h4{
+    font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+h2{
+    text-align: center;
+    margin:5px;
+}
+
+h1{
+    text-align: left;
+    margin:2px;
+}
+
+.wrap{
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+.wrapper{
+    padding-top:40px;
+    padding-bottom:5px;
+}
+
+
+
+/*hero unit*/
+.jumbotron{
+    text-align: right;
+    font-size: 20px;
+    background-color:lightblue;
+    padding:auto;
+}
+
+
+section{
+    padding:15px;
+    box-sizing: border-box;
+}
+/* about grid*/
+.container_12{
+    display: block;
+}
+
+.container .grid_12 {
+    width:940px;
+}
+
+.container .grid_4{
+    width:300px;
+}
+
+.grid_4{
+    display:inline;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid_12{
+    display:inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid_6{
+    display:inline;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:bottom;
+}
+
+/* for footer part*/
+.footer-main{
+    width:100%;
+    height:auto;
+    margin:auto;
+    background-color:brown;
+    padding:20px 0px;
+}
+
+.footer-icon {
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+.footer-icon ul{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+.footer-icon ul li{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:0px 10px;
+	border-radius:100%;
+	background:#e2dbdb;
+}
+
+.footer-icon ul li a{
+	color:blue;
+	font-size: 20px;
+	display: block;
+}
+
+.footer-icon ul li a i{
+	line-height: 50px;
+}
+
+ .footer-menu1{
+    width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 30px;
+}
+
+ .footer-menu1 ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+.footer-menu1 ul li{
+    display:inline-block;
+    margin: 0px 20px;
+}
+
+.footer-menu1 ul li a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#e2dbdb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+    
+.footer-menu2{
+    width:100%;
+    height:auto;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.footer-menu2 ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+.footer-menu2 ul li{
+    display:inline-block;
+    margin: 0px 20px;
+}
+
+.footer-menu2 ul li a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#e2dbdb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-menu2 ul li a:hover{
+    color:#5ed3d3;
+}
+
+.footer-bottom{
+    width:100%;
+    height:auto;
+    margin:auto;
+    background: #914343;
+    padding:10px;
+}
+
+.footer-bottom p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-bottom p a{
+    text-decoration-color: beige;
+    text-decoration: none;
+    color: beige;
+}
+
+.footer-bottom p a:hover{
+        color: aqua;
+}
+        
+    
+    
+    
+
+    
+    
+
+
+    
+    
+    
+
+
+
