@@ -10,7 +10,7 @@ body{
 }
 
 /* background image*/
-.images{
+.container{
 	background-image: url("../img/crafts.jpg");
 	background-size: 80% 80%;
 	width: 100%;
@@ -24,19 +24,19 @@ body{
     position: fixed;
     display:inline;
 }
-/*specifications for menu*/
+/*specifications for navbar*/
 .main{
     width:100%;
     margin:30px 0;
 }
 
-.leftmenu{
+.navbar-brand{
     float:left;
     width: 20%;
 	line-height: 100px;
 }
 
-.leftmenu h4{
+.navbar-brand h4{
 	padding-left: 70px;
 	font-weight: bold;
 	color: white;
@@ -44,17 +44,17 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-.rightmenu{
+.navbar-link{
     float:right;
     width:70%;
 	height: 100px;
 }
     
-.rightmenu ul{
+.navbar-link ul{
 	margin-right: 20px;
 }
 
-.rightmenu ul li {
+.navbar-link ul li {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	list-style: none;
@@ -71,7 +71,7 @@ body{
     color: orange;
 }
 
-.rightmenu ul li:hover{
+.navbar-link ul li:hover{
 	color: orange;
 }
 
