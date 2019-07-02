@@ -119,17 +119,7 @@ h1{
 
 .wrapper{
     padding-top:40px;
-    padding-bottom:5px;
-}
-
-
-
-/*hero unit*/
-.jumbotron{
-    text-align: right;
-    font-size: 20px;
-    background-color:lightblue;
-    padding:auto;
+    padding-bottom:5px
 }
 
 
