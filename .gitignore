@@ -2,22 +2,6 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 
-
-404.html
-browserconfig.xml
-doc
-favicon.ico
-humans.txt
-icon.png
-js
-LICENSE.txt
-README.md
-robots.txt
-site.webmanifest
 tile.png
-tile-wide.png
-.editorconfig
-.git
-.gitattribute
-.gitignore
-.htaccess
+humans.txt
+doc
